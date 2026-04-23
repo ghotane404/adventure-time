@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class StepClass {
+public class Step {
     private int id;
     private String storyText;
     private String option1Text;
@@ -8,7 +8,7 @@ public class StepClass {
     private String option2Text;
     private int option2NextId;
 
-    StepClass(int id, String storyText, String option1Text, int option1NextId, String option2Text, int option2NextId) {
+    Step(int id, String storyText, String option1Text, int option1NextId, String option2Text, int option2NextId) {
         this.id = id;
         this.storyText = storyText;
         this.option1Text = option1Text;
